@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=MuseoModerno&display=swap");
+
 html {
   font-size: 62.5%; // 1rem is 10px
 }
@@ -26,6 +28,8 @@ body {
 }
 
 button {
-  border-radius: 5px;
-  background-color: hotpink;
+  border-radius: 10px;
+  background-color: rgba(72, 236, 80, 0.747);
+  font-family: "MuseoModerno", cursive;
+  display: flex;
 }
