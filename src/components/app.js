@@ -18,20 +18,17 @@ export default class App extends Component {
 
     this.state = {
       foodData: foodPhotos,
-      selectedPhoto: "",
+      Type: "",
     };
   }
-  showFoodPhotoTaco = () => {
-    this.setState();
-  };
 
   render() {
     return (
       <div className="app">
-        <button>Do you like Tacos?</button>
-        <button>Do you like Burgers?</button>
-        <button>Do you like Spaghetti?</button>
-        <button>Do you like Steak?</button>
+        <button style={{ backgroundColor: "#FFD6EF" }}>Tacos?</button>
+        <button style={{ backgroundColor: "#DBB9EB" }}>Burgers?</button>
+        <button style={{ backgroundColor: "#E6E1FE" }}>Spaghetti?</button>
+        <button style={{ backgroundColor: "#B3C9F5" }}>Steak?</button>
         <img
           src={this.state.foodData[0].image}
           style={{ visibility: "hidden" }}
