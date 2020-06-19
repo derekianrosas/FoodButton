@@ -20,7 +20,11 @@ export default class App extends Component {
       foodData: foodPhotos,
       Type: "",
     };
+
+    this.showFoodPhoto = this.showFoodPhoto.bind(this);
   }
+
+  showFoodPhoto(foodType) {}
 
   render() {
     return (
